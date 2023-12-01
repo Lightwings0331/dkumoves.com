@@ -1,0 +1,205 @@
+@font-face {
+    src: url(Fonts/Kay_Pho_Du/KayPhoDu-Bold.ttf);
+    font-family:kpd_Bold;
+}
+@font-face {
+    src: url(Fonts/Kay_Pho_Du/KayPhoDu-Medium.ttf);
+    font-family:kpd_Medium;
+}
+@font-face {
+    src: url(Fonts/Kay_Pho_Du/KayPhoDu-Regular.ttf);
+    font-family:kpd_Regular;
+}
+@font-face {
+    src: url(Fonts/Kay_Pho_Du/KayPhoDu-SemiBold.ttf);
+    font-family:kpd_SemiBold;
+}
+@font-face {
+    src: url(Fonts/Noto_Serif_TC/NotoSerifTC-Bold.otf);
+    font-family:TC_Bold;
+}
+@font-face {
+    src: url(Fonts/Noto_Serif_TC/NotoSerifTC-SemiBold.otf);
+    font-family:TC_SemiBold;
+}
+
+/* General */
+*{ 
+    text-align: center;
+    font-family:kpd_Bold,TC_SemiBold;
+    color: rgb(186, 186, 186);
+}
+
+body{
+    background-image: url(img/bg.png), url(img/bg2.png);
+    background-repeat: repeat-x, repeat;
+    margin: 5%;
+}
+
+h1{
+    font-size: 3.5vw;
+}
+
+h2{
+    font-size: 2vw;
+}
+
+h4{
+    font-size: 1.5vw;
+
+}
+
+p{
+    font-size: 1.3vw;
+}
+
+/* header*/
+.title > img,h1{
+    display: inline;
+}
+
+#pic_logo{
+    position: absolute;
+    left:5%;
+    top: 5%;
+}
+
+
+#hd{
+    margin:30px;
+}
+
+/* Nav Bar */
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+  
+.nav li {
+    float:left;
+    padding: 1% 1%
+}
+
+.nav li a {
+    display: block;
+    text-align: left;
+    padding: 1% 1%;
+    text-decoration: none;
+    white-space:nowrap;
+}
+  
+.nav li a:hover {
+    background-color: #000000;
+}
+
+.nav li a:active{
+    background-color:  rgb(222, 222, 222);
+} 
+
+
+
+/* aboutMe*/
+
+.aboutMe{
+    padding: 0.5%;
+}
+
+
+.aboutMe > p{
+    border-color: white;
+    border: 1px;
+    border-style: solid;
+    width: 30%;
+    height: 10%;
+    overflow: scroll;
+    position: relative;
+    left: 35%;
+}
+
+
+/* projects*/
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropDown button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.dropDown{
+    padding: 0 10%;
+
+}
+
+.dropDown a{
+    text-decoration: none;
+    display: none;
+}
+.dropDown:hover a{
+    display:block
+;}
+
+.dropDown a:hover{
+    background-color: #333;
+
+}
+
+.dropDown:hover button{
+    background-color: #333;
+}
+
+
+
+/* grid */
+
+.gridContainer{
+    display: grid;
+    gap: 30% 5%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    
+}
+
+.gridContainer > div> a{
+    display: block;
+
+}
+
+.gridContainer > div > a {
+    text-decoration:none;
+} 
+
+.gridContainer > div > a:hover {
+    background-color: #333;
+} 
+
+
+#itemNav{
+    grid-column: 2/4;
+}
+
+
+
+#itemCopy{
+    grid-column: 1/4;
+    text-align: center;
+}
+
+
+/* contact */
+.contact{
+
+    margin: 1%;
+}
+
+#buttonText{
+    color: black;
+}
