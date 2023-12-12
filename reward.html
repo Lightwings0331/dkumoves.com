@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reward</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/reward.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/generalStyle.css">
+   
+</head>
+<body>
+    <header>
+        <h2>REWARD</h2>
+    </header>
+    <main>
+        <h2 class="subtitle">Tabling</h2> 
+        <p class="dataDisplay">Next tabling is on </p><p id="tablingTime" class="dataDisplay"></p>
+        <br><br>
+        <button id="icsGenerate" onclick="icsGenerate()" >Add to your calender</button>
+
+        
+
+        <h2 class="subtitle">Gift List</h2>
+        <table id="giftTable">
+            <tr>
+              <th>Name</th>
+              <th>Points Needed</th> 
+              <th>Remainder</th>
+            </tr>
+        </table>
+        <br><br>
+        <br><br>
+        <br><br>
+    </main>
+
+    <footer>
+
+        <img 
+        src =  "multimedia/homeIcon.png"
+        id="homeIcon"
+        class="navIcon"
+        alt = "homeIcon"
+        onclick="dashboard()"> 
+        
+        <img 
+        src =  "multimedia/uploadIcon.png"
+        id="uploadIcon"
+        class="navIcon"
+        alt = "uploadIcon"
+        onclick="upload()"> 
+        
+        <img 
+        src = "multimedia/giftIcon.png"
+        id="giftIcon"
+        class="navIcon"
+        alt = "giftIcon"
+        onclick="reward()"> 
+
+    </footer>
+    <script src="script/reward.js"></script>
+</body>
+</html>

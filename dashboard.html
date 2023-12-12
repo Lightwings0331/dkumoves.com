@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/generalStyle.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/dashboard.css">
+
+</head>
+
+<body>
+    <header>
+        <h2>PERSONAL CENTER</h2>
+    </header>
+    
+    <main>
+        
+        <p>Welcome!</p>
+        <h2 id="userName"></h2>
+        <h3 class="dataDisplay">You have run </h3><h3 id="userDistance" class="dataDisplay"></h3><h3 class="dataDisplay">, surpassing </h3><h3 id="userRank" class="dataDisplay"></h3><h3 class="dataDisplay">% of the users.</h3>
+        <br><br>
+        <h3 class="dataDisplay">You are now at </h3><h3 id="userPostion" class="dataDisplay"></h3><h3 class="dataDisplay">!</h3>
+        <br><br>
+        <div id ="mapFunction">
+            <img 
+            src =  "multimedia/map.png"
+            id="map"
+            alt = "a world map indicating your position"> 
+            
+        </div>
+        
+        <br><br>
+
+    </main>
+
+
+    <footer>
+
+        <img 
+        src =  "multimedia/homeIcon.png"
+        id="homeIcon"
+        class="navIcon"
+        alt = "homeIcon"
+        onclick="dashboard()"> 
+        
+        <img 
+        src =  "multimedia/uploadIcon.png"
+        id="uploadIcon"
+        class="navIcon"
+        alt = "uploadIcon"
+        onclick="upload()"> 
+        
+        <img 
+        src = "multimedia/giftIcon.png"
+        id="giftIcon"
+        class="navIcon"
+        alt = "giftIcon"
+        onclick="reward()"> 
+
+    </footer>
+
+
+    <script src="script/dashboard.js"></script>
+
+
+
+</body>
+</html>

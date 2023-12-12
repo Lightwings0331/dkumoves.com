@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/upload.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/generalStyle.css">
+   
+</head>
+<body>
+    <header>
+        <h2>UPLOAD</h2>
+    </header>
+
+    <main>
+        <h2 class="subtitle">Sport Type</h2>
+        <div id="sportType">
+            <div><img src="multimedia/sportIcon/Soccer.png" class="sportIcon" id="Soccer" onclick="Soccer()"></div>
+            <div><img src="multimedia/sportIcon/Badminton.png" class="sportIcon" id="Badminton" onclick="Badminton()"></div>
+            <div><img src="multimedia/sportIcon/Basketball.png" class="sportIcon" id="Basketball" onclick="Basketball()"></div>
+            <div><img src="multimedia/sportIcon/Boxing.png" class="sportIcon" id="Boxing" onclick="Boxing()"></div>
+            <div><img src="multimedia/sportIcon/Martial art.png" class="sportIcon" id="Martial art" onclick="MartialArt()"></div>
+            <div><img src="multimedia/sportIcon/Volleyball.png" class="sportIcon" id="Volleyball" onclick="Volleyball()"></div>
+            <div><img src="multimedia/sportIcon/waight training.png" class="sportIcon" id="Weight training" onclick="WeightTraining()"></div>
+        
+        </div>
+        <h2 class="subtitle">Exercise Time</h2>
+
+        <div class="slidecontainer">
+            <input type="range" min="20" max="180" value="100" class="slider" id="myRange">
+        </div>
+        
+        <h2 id="sportResult"></h2>
+        
+        <button id="submitBtn"  onclick="SubmitSuccessfully()">
+            Submit
+        </button>
+        <br><br>
+        <br><br>
+        <br><br>
+        
+    </main>
+    
+
+    <footer>
+        <img 
+        src =  "multimedia/homeIcon.png"
+        id="homeIcon"
+        class="navIcon"
+        alt = "homeIcon"
+        onclick="dashboard()"> 
+        
+        <img 
+        src =  "multimedia/uploadIcon.png"
+        id="uploadIcon"
+        class="navIcon"
+        alt = "uploadIcon"
+        onclick="upload()"> 
+        
+        <img 
+        src = "multimedia/giftIcon.png"
+        id="giftIcon"
+        class="navIcon"
+        alt = "giftIcon"
+        onclick="reward()"> 
+
+    </footer>
+    
+    <script src="script/upload.js"></script>
+</body>
+</html>
