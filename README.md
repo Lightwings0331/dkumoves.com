@@ -1,5 +1,5 @@
 # dkumoves.com
-This is a test-version of DKU Moves, a campus exercise avtivity.
+This is a test-version of DKU Moves, a campus exercise avtivity. You can upload your exercise record and see your total points and rank here. Also, we provide list of gists you can redeem with points.
 
 Please test with a mobile device. WeChat browser is encouraged. 
 
