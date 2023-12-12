@@ -1,0 +1,80 @@
+@font-face {
+    src: url(/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    font-family:inter_varible;
+}
+
+#sportType{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-content: stretch;
+}
+
+#sportType > div{
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+}
+.sportIcon{
+    height: 100px;
+    width: 100px;
+}
+
+.sportIcon:hover{
+    opacity: 60%;
+}
+
+/* This following part was motified on the based on W3Schools' design */
+.slider {
+    appearance: none;
+    width: 70%;
+    height: 30px;
+    border-radius: 35px;
+    background: #d3d3d3;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider:hover {
+opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background:rgb(30, 57, 119);
+    cursor: pointer;
+}
+
+
+#submitBtn{
+    background-color: rgb(30, 57, 119);
+    width: 30%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#submitBtn:hover{
+    background-color: rgba(30, 57, 119, 0.699);
+}
+#sportResult{
+    text-align: center;
+}

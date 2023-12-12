@@ -1,0 +1,54 @@
+*{
+    color: white;
+    text-align: center;
+    font-family: inter_varible;
+}
+
+body{
+    background-image: url(/multimedia/1.png), url(/multimedia/2.png);
+    background-size: 60%, cover;
+    background-repeat: repeat-y;
+    margin: 15px;
+}
+
+
+#loginButton{
+
+    background-color:white;
+    border-radius: 12px;
+    border: none;
+    color: rgb(30, 57, 119);
+    padding: 15px 32px;
+    width: 300px;
+}
+
+#loginButton p{
+    color: rgb(30, 57, 119);
+}
+
+#loginButton:hover{
+    /* background-color:rgb(64, 140, 89); */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.40);
+}
+
+
+#athleticsLogo{
+    float: right;
+    height: 50px;
+    display: block;
+    padding: 5px;
+}
+
+
+#movesLogo{
+    float: right;
+    height: 50px;
+    display: block;
+    padding: 5px;
+
+
+}
+
+#title{
+    display: block;
+}

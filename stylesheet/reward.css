@@ -1,0 +1,60 @@
+@font-face {
+    src: url(/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    font-family:inter_varible;
+}
+
+#giftTable {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+#giftTable td, #giftTable th {
+border: 1px solid #ddd;
+padding: 8px;
+
+
+}
+
+#giftTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#giftTable tr:hover {background-color: #ddd;}
+
+#giftTable th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: rgb(30, 57, 119);
+color: white;
+font-weight: 500;
+font-size: 20px;
+}
+#giftTable td{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#icsGenerate{
+    background-color: rgb(30, 57, 119);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;border-radius:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#icsGenerate:hover{
+    background-color: rgba(30, 57, 119, 0.699);
+
+}
+
+#tablingTime{
+    color:rgba(30, 57, 119, 0.699);
+    font-weight: bolder;
+}

@@ -1,0 +1,15 @@
+@font-face {
+    src: url(/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    font-family:inter_varible;
+}
+
+
+
+body{
+    margin: 0;
+}
+
+#login{
+    width: 100%;
+
+}
